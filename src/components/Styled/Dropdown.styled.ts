@@ -8,5 +8,5 @@ export const Dropdown = styled.select`
   border:none;
   border-bottom:1px solid #757575;
 
-  &:focus 		{ outline:none; }
+  &:focus{ outline:none; }
 `;

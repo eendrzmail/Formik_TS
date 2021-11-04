@@ -15,7 +15,7 @@ export const DropdownComponent = (props: OtherProps & FieldHookConfig<string>): 
         <div>
             <Dropdown>
                 {props.optionArray.map(x => {
-                    return <option key={x}>{x}</option>
+                    return <option key={x} value={x}>{x}</option>
                 })}
             </Dropdown>
         </div>

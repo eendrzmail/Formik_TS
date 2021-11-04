@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { FieldHookConfig, useField } from 'formik'
 import { Input } from '../Styled/Input.styled';
 

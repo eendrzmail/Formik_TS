@@ -5,10 +5,9 @@ import CheckboxComponent from './FormComponents/CheckboxComponent'
 import { DropdownComponent } from './FormComponents/DropdownComponent'
 import InputComponent from './FormComponents/InputComponent'
 import { ReactDatepickerComponent } from './FormComponents/ReactDatepickerComponent'
-import { Dropdown } from './Styled/Dropdown.styled'
 
 
-export const FormPage = () => {
+export const FormPage = (): JSX.Element => {
 
     return (
         <>

@@ -7,11 +7,11 @@ interface OtherProps {
 }
 
 const InputComponent = (props: OtherProps & FieldHookConfig<string>): JSX.Element => {
-    const [field] = useField(props);
+    const [field, meta] = useField(props);
 
     return (
         <div>
-            <label>{props.label}</label>
+            <label htmlFor={field.name}>{props.label}</label>
             <Input type="text" {...field} {...props} value={field.value} />
         </div>
     )
